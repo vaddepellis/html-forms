@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ccc;
+  color: #000;
+  color: #000;
+}
+header{
+  background-color: #0070ad;
+  padding: 20px 30px;
+  margin-bottom: 100px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+ul li{
+  list-style: none;
+}
+.nav-bar li{
+  display: inline-block;
+  margin: 0px 10px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.container{
+  max-width:60%;
+  margin:auto;
+
+}
+.heading-text{
+    color:#0070ad;
+}
+.heading,.registration-form{
+  display:flex;
+  justify-content:center;
+  box-sizing:border-box;
+}
+.form-field{
+  margin:5px 0px;
+}
+.form-field input[type="text"],
+.form-field input[type="password"],
+.form-field input[type="email"]{
+  border:none;
+  outline:0;
+  padding:10px 20px;
+  background-color:#fff;
+  border-radius:7px;
+  font-weight:bold;
+}
+.register-btn{
+  border:none;
+  border-radius:8px;
+  padding:10px 20px;
+  background-color:#0070ad;
+  color:#fff;
+  font-weight:bold;
+
+}

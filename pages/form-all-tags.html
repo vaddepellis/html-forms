@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form-with-all-tags</title>
+  <link rel="stylesheet" href="./form-all-tags.css">
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="logo"><a href="../index.html">Welcome</a></div>
+      <div class="home-btns">
+        <ul class="nav-bar">
+          <a href="./login-form.html"><li>Login</li></a>
+          <a href="./form-registration.html"><li>Register</li></a>
+          <a href="./form-all-tags.html">	<li>Form</li></a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <h2 style="text-align:center;margin:10px 0px" class="blue">HTML All Form Tags</h2>
+<div class="container">
+
+
+<div class="form-container">
+<form action="" method="post">
+	<table>
+		<tr>
+			<td><label>Name</label></td>
+			<td>
+        <div class="form-filed">
+        <input type="text" name="fname" placeholder="Enter Name" required maxlength="10"
+        autofocus autocomplete="on" pattern="[A-Z]{6}" />
+        </div>
+        </td>
+		</tr>
+		<tr>
+			<td><label>Email Id</label></td>
+			<td>
+        <div class="form-filed"><input type="email" name="email" /></div>
+      </td>
+		</tr>
+    <tr>
+      <td><label>password</label></td>
+      <td><div class="form-filed"><input type="password" name="pwd" /><div class="form-filed"></td>
+    </tr>
+		<tr>
+			<td><label>URL</label></td>
+			<td><div class="form-filed"><input type="url" name="url"></div></td>
+		</tr>
+		<tr>
+			<td><label>Time</label></td>
+			<td><div class="form-filed"><input type="time" name="time"></div></td>
+		</tr>
+		<tr>
+			<td><label>Month</label></td>
+			<td><div class="form-filed"><input type="month" name="month"></div></td>
+		</tr>
+		<tr>
+			<td><label>Number</label></td>
+			<td><div class="form-filed"><input type="number" name="num" min="0" max="100" step="5"></div></td>
+		</tr>
+		<tr>
+			<td><label>Search</label></td>
+			<td><div class="form-filed"><input class="search" type="search" name="search"></div></td>
+		</tr>
+
+		<tr>
+			<td><label>Week</label></td>
+			<td><div class="form-filed"><input type="week" name="week"></div></td>
+		</tr>
+		<tr>
+			<td><label>DOB</label></td>
+			<td><div class="form-filed"><input type="date" name="date"></div></td>
+		</tr>
+		<tr>
+			<td><label>Color</label></td>
+			<td><div class="form-filed"><input type="color" name="color"></div></td>
+		</tr>
+		<tr>
+			<td><label>Mobile No </label></td>
+			<td><div class="form-filed"><input type="tel" name="tel"></div></td>
+		</tr>
+		<tr>
+			<td><label>Range</label></td>
+			<td><div class="form-filed"><input type="range" name="range"></div></td>
+		</tr>
+
+		<tr>
+			<td><label>gender</label></td>
+			<td>
+				<input type="radio" name="gender">Male
+				<input type="radio" name="gender" checked>Female
+			</td>
+		</tr>
+		<tr>
+			<td><label>select course</label></td>
+			<td><div class="form-filed">
+				<select>
+					<option value="">---Select---</option>
+					<option value="html">Html</option>
+					<option value="css">Css</option>
+					<option value="javascript" selected>Javascript</option>
+					<option value="jquery">jQuery</option>
+					<option value="bootstrap">Bootstrap</option>
+				</select>
+        </div>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Address</label></td>
+			<td><div class="form-filed">
+				<textarea rows="3" cols="20"></textarea>
+        </div>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Upload file</label></td>
+			<td><div class="form-filed"><input type="file" name="file"></div></td>
+		</tr>
+		<tr>
+
+			<td></td>
+			<td><div class="form-filed"><input type="checkbox" name="check">I'm Agree!</div></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+			<input class="btn-submit" type="submit" >
+			<input class="btn-reset" type="reset" value="reset">
+			</td>
+		</tr>
+	</table>
+</form>
+</div>
+</div>
+</body>
+</html>
